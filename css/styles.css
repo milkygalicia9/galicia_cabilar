@@ -17,6 +17,7 @@ header {
 }
 
 nav {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,19 +50,25 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    padding: 100px;
+    /*Please change the path file of the desired background image before running or reloading the website*/
+    background-image: url('/Users/JESSICA G. CABILAR/OneDrive/Desktop/galicia_cabilar/img/bg1.jpg'); /*change here!!!*/
     background-size: cover;
     color: white;
+
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
+    color: #fcfffb;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 40px;
 }
 
@@ -72,6 +79,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .cta-button:hover {
@@ -84,7 +92,14 @@ nav a:hover {
 }
 
 .menu h2 {
-    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.menu p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -100,17 +115,20 @@ nav a:hover {
 }
 
 .about h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
 .about p {
-    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .contact {
+    font-family: 'Times New Roman', Times, serif;
     padding: 100px 0;
     text-align: center;
     background-color: #233e05;
