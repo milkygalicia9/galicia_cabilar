@@ -6,23 +6,15 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: cursive, handwriting;
-    background-color: #9EB384;
+    background-color: #172703;
     color: #ffffff;
 }
 
 header {
     background-color: #47341c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
- 
     padding: 20px;
 }
-.image-container {
-    width: 300px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
-    background-image: url('inter.jpg'); /* Replace 'image.jpg' with your image file path */
-    background-size: cover;
-  }
-  
 
 nav {
     display: flex;
@@ -46,7 +38,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #b5e2aa;
+    color: #fcfffb;
     font-weight: bold;
     transition: color 0.3s;
 }
